@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Universal targets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Body Section */
+body {
+  font-family: Poppins, sans-serif;
+}
+/* NAV AREA FROMATING */
+.navbar {
+  width: 100%;
+  background-color: #be313c;
+  position: fixed;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+ul {
+  display: flex;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1.39em;
+  font-family: Poppins, sans-serif;
+  display: block;
+  padding: 18.5px;
+}
+
+ul li a:hover {
+  background-color: #45567d;
+  padding: 18.5px;
+}
+/* FIRST SECTION'S FROMATING */
+.firstsec {
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* FIRST SECTION'S DIV'S FORMATTING */
+
+.parant {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rem 2.5rem;
+  justify-content: center;
+}
+
+/* FIRST SECTION'S HEADINGS AND THEIR FORMATTING AREA */
+.firstsec h1,
+h2 {
+  font-size: 3.62rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 550;
+  /* line-height: 84px; */
+  font-style: normal;
+  color: #f0f0f0;
+}
+h2 {
+  font-size: 42px;
+  text-align: center;
+  padding-top: 7rem;
+}
+
+/* FIRST SECTION'S PARA FORMATTING AREA */
+
+.firstsec p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(190, 49, 68);
+  font-size: 30px;
+}
+
+/* FROM HERE THE SECOND SECTION BEGAINS */
+.secondsec {
+  background: #45567d;
+}
+
+/* PROJECT'S HEADING  */
+.project-header {
+  border-bottom: 2px solid white;
+  width: 40rem;
+  margin: 0.4rem auto 3.5rem auto;
+}
+
+/* PROJECT'S ANCHOR WITH IMAGE TAG FORMING AREA */
+
+.project-bgi,
+.secondsec a {
+  text-decoration: none;
+}
+
+
+.project-bgi {
+  background-color: #303841;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  width: 26.5%;
+  display: inline-block;
+  height: 51vh;
+  /* overflow: hidden; */
+}
+
+/* PROJECT'S IMAGE TAG FORMING AREA */
+
+.project-bgi img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* PROJECT'S CAPTION FORMATTING AREA */
+
+/* PARA AND ALL BUTTON FROMATING */
+.secondsec p,
+.all-btn {
+  text-align: center;
+  background-color: #303841;
+  padding: 1.5rem 0rem;
+  font-size: 19px;
+  color: #f0f0f0;
+}
+.secondsec .all-btn {
+  margin-top: 8.8rem;
+}
+
+.morebtn {
+  width: 100%;
+  /* margin: 3.4rem 0rem; */
+  display: flex;
+  justify-content: center;
+}
+
+.all-btn {
+  background-color: #303841;
+  padding: 10px 24px;
+  color: #f0f0f0;
+  text-align: center;
+  margin: 3.4rem 0rem;
+}
+
+/* HERE IS THE FORMATTING OF ALL BUTTON'S HOVER AND TRANSITION */
+
+.all-btn:hover {
+  background-color: #be3144;
+}
+
+.all-btn > i {
+  margin-left: 8px;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+}
+
+.all-btn:hover > i {
+  transform: translateX(2px);
+}
+
+/* GREATER AND LESS THAN SYMBOL FROMATING AREA */
+.less {
+  color: #303841;
+  transition: color 0.3s ease-in-out;
+}
+.project-info:hover .less{
+  color:#ff7f50;
+}
+
+/* AND HERE OUR THIRD SECTION BEGAINS */
+
+.secthree {
+  text-align: center;
+  width: 100%;
+  height: 80%;
+  background: #303841;
+}
+
+/* THIRD SECTION'S PARA AND HEADING FORMATTING AREA */
+
+.secthree h1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 3.67rem;
+  padding-top: 13rem;
+  transition: transform 0.3s ease-out;
+}
+.secthree p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  color: white;
+  font-size: 18px;
+}
+
+/* THIRD SECTION'S DIV'S FROMATING AREA */
+
+.handles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0px 196px 0px;
+  width: 100%;
+}
+
+/* DIV RELATED ANCHOR TAGS FORMATTING AREA */
+
+.handles a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease-out;
+}
+
+/* HERE IS THE HOVER EFFECT OF THIRD SECTION'S DIV'S ANCHOR TAG */
+
+.handles a:hover {
+  transform: translateY(8px);
+}
+
+/* HERE IS THE FORMATTING AREA OF ICONS OF CONTACT */
+
+.handles i {
+  color: #f0f0f0;
+  font-size: 24px;
+  margin-right: 4px;
+}
+
+/* AT THE END HERE IS OUR FOOTER AND ITS FORMTING */
+
+footer {
+  background-color: #303841;
+  font-weight: 300;
+  border-top: 4px solid #be3144;
+  padding: 2.4rem;
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* FORMATTING AREA OF FOOTER'S ANCHOR TAG */
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: 1.12rem;
+}
+
+
+@media (max-width: 876px) {
+
+  /* FIRST SECTIONS PARANT DIV MEDIA FORMATTING */
+/* NAVBAR MEDIA FORMATTING */
+
+  ul li a {
+    font-size: 1.8vw;
+  }
+  .parant {
+    gap: 8rem 4rem;
+    justify-content: center;
+  }
+  /* HERE IS THE MEDIA FORMATTING OF SECOND SECTION'S HEADING  */
+
+  .project-header {
+    width: 85vw;
+  }
+
+  /* MEDIA FORMING OF THIRD SECTION  */
+
+  .secthree h1 {
+    font-size: 5.8vw;
+  }
+  /* THIRD SECTION'S ICONS AND ANCHOR TAGS MEDIA FORMTING AREA  */
+  .handles a,
+  .handles i {
+    font-size: 2.49vw;
+  }
+  
+  /* ALL H2'S MEDIA FORMATTING  */
+
+  h2 {
+    font-size: 5.2vw;
+  }
+
+  /* FOOTER AND ITS ANCHOR TAGS MEDIA FORMATTING  */
+
+  footer,
+  footer a {
+    font-size: 2.1vw;
+  }
+  /* SECOND SECTION'S ALL BUTTON MEDIA FOMATING  */
+
+  .secondsec p,
+  .all-btn {
+    font-size: 2.18vw;
+
+  }
+  /* SECOND SECTIONS PROJECT'S ANCHOR TAG MEDIA FORMATTING  */
+
+  .project-bgi {
+    width: 40%; /* Adjust to 100% for smaller screens */
+  }
+
+  .secthree p{
+    font-size: 3.8vw;
+  }
+
+  /* SECOND SECTIONS PROJECT'S ANCHOR TAG WITH IMAGE MEDIA FORMATTING  */
+
+.project-bgi img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* MEDIA FORMTING OF PROJECT'S CAPTION  */
+
+.project-info {
+  background-color: #303841;}
+}
+
+
+@media screen and (max-width: 600px) {
+  .project-bgi {
+    width: 100%; /* Adjust to 100% for smaller screens */
+  }}
